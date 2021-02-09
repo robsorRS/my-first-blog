@@ -23,9 +23,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = '63hlw(@u-86usk5@!+_+(l$$i30w5pp@y&j)7l$fimud_air1a'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
-ALLOWED_HOSTS = ['robsorrs.pythonanywhere.com', 'localhost', '127.0.0.1', '::1', '10.0.0.251']
+ALLOWED_HOSTS = ['robsorrs.pythonanywhere.com']
 
 
 # Application definition
