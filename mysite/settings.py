@@ -25,7 +25,7 @@ SECRET_KEY = '63hlw(@u-86usk5@!+_+(l$$i30w5pp@y&j)7l$fimud_air1a'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['robsorrs.pythonanywhere.com']
+ALLOWED_HOSTS = ['robsorrs.pythonanywhere.com', '192.168.10.10']
 
 
 # Application definition
