@@ -25,13 +25,13 @@ SECRET_KEY = '63hlw(@u-86usk5@!+_+(l$$i30w5pp@y&j)7l$fimud_air1a'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['robsorrs.pythonanywhere.com', '192.168.10.10']
+ALLOWED_HOSTS = ['robsorrs.pythonanywhere.com', '192.168.10.10', '10.0.0.22']
 
 
 # Application definition
 
 INSTALLED_APPS = [
-    'blog.apps.BlogConfig'.
+    'blog.apps.BlogConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
